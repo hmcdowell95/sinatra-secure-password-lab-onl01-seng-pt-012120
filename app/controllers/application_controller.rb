@@ -17,7 +17,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post "/signup" do
-    User.create(username: )
+    user = User.new(username: )
 
   end
 
